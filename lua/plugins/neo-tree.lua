@@ -8,5 +8,6 @@ return {
     },
     config = function()
         vim.keymap.set('n', '<leader>1', ':Neotree filesystem reveal right<CR>', {})
+        vim.keymap.set('n', '<leader>fe', ':Neotree toggle right<CR>', {})
     end
 }
