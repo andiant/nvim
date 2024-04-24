@@ -7,5 +7,4 @@ vim.cmd("set number")
 vim.cmd("set relativenumber")
 
 vim.g.mapleader = " " -- Leertaste als <leader> Taste, um weitere Befehle auszuführen. Z.B.: <leader>ff
-
-
+vim.cmd("nnoremap <leader>v <c-v>")
